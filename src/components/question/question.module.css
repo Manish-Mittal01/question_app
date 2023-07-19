@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 40px);
+}
+
+.question_number {
+    margin: 0
+}
+
+.category {
+    margin: 0;
+}
+
+.question {
+    margin-block: 32px;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.option {
+    margin-block: 16px;
+
+
+}
+
+.optionBtn {
+    background-color: #333;
+    color: #fff;
+}
+
+.answer {
+    text-align: center;
+    margin-block: 24px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+
+    >p {
+        margin: 0;
+    }
+}
