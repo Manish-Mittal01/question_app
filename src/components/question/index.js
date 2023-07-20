@@ -9,7 +9,7 @@ import OutlinedBtn from '../../common/button'
 export default function Question() {
     const [answer, setAnswer] = useState("")
     const [disableOptions, setDisableOptions] = useState(false)
-    const [currentQuestion, setCurrentQuestion] = useState({ number: 10, question: data[0] })
+    const [currentQuestion, setCurrentQuestion] = useState({ number: 1, question: data[0] })
     const [progress, setProgress] = useState(0)
     const [score, setScore] = useState({ correctAnswers: 0, percent: 0 })
 
